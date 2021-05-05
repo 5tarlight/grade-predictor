@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  ts-back:
-    container_name: ts-backend
+  backend:
+    container_name: gp-backend
     build:
       context: ./backend
       dockerfile: dockerfile
@@ -11,8 +11,8 @@ services:
     volumes:
       - /app/backend/node_module
 
-  ts-front:
-    container_name: ts-frontend
+  frontend:
+    container_name: bp-frontend
     build:
       context: ./frontend
       dockerfile: dockerfile
