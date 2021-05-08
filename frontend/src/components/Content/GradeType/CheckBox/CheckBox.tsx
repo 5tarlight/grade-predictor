@@ -11,8 +11,8 @@ interface Props {
 const CheckBox: FC<Props> = ({ checked, children }) => {
   return (
     <>
-      <input type="checkbox" className={cx('cb')} checked={checked} />
-      <label>{children}</label>
+      <input id={children?.toString()} type="checkbox" className={cx('cb')} checked={checked} />
+      <label htmlFor={children?.toString()} className={cx('label')}>{children}</label>
     </>
   )
 }
