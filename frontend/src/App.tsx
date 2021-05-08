@@ -1,6 +1,7 @@
 import AdBox from './components/AdBox/AdBox';
 import styles from './styles/App.scss'
 import classnames from 'classnames/bind'
+import Content from './components/Content/Content';
 
 const cx = classnames.bind(styles)
 
@@ -11,7 +12,7 @@ const App = () => {
         <AdBox isRight={false}>tlqkf</AdBox>
       </div>
       <div className={cx('content')}>
-        Contents
+        <Content />
       </div>
       <div className={cx('right-bar')}>
         <AdBox isRight={true} />
