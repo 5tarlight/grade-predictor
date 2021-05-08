@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+}
+
+.left-bar {
+  left: 0;
+  width: 20%;
+}
+
+.content {
+  flex: 5;
+  flex-basis: 0;
+}
+
+.right-bar {
+  right: 0;
+  width: 20%;
+}
