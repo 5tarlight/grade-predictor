@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className={cx('App')}>
       <div className={cx('left-bar')}>
-        <AdBox isRight={false}>tlqkf</AdBox>
+        <AdBox isRight={false}></AdBox>
       </div>
       <div className={cx('content')}>
         <Content />
